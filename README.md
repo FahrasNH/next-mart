@@ -7,7 +7,7 @@ Aplikasi katalog belanja **NextMart** dengan Next.js (App Router), TanStack Quer
 | Item | Keterangan |
 |------|------------|
 | **Repository** | *[Github](https://github.com/FahrasNH/next-mart)* |
-| **Live URL** | *[Vercel](next-mart-three.vercel.app)* |
+| **Live URL** | *[Vercel](https://next-mart-three.vercel.app/)* |
 
 ---
 
