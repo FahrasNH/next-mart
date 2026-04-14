@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/**
+ * Palet aplikasi
+ * - bg dasar: #FFFFFF
+ * - teks utama: #0F172A
+ * - teks sekunder: #64748B
+ * - aksen / teks tersier: #1E3A5F
+ */
+:root {
+  --app-bg: #ffffff;
+  --app-text: #0f172a;
+  --app-text-muted: #64748b;
+  --app-text-accent: #1e3a5f;
+  --app-border: #e2e8f0;
+  --app-surface: #f8fafc;
+  --app-skeleton: #e2e8f0;
+}
+
+@theme inline {
+  --color-app-bg: var(--app-bg);
+  --color-app-text: var(--app-text);
+  --color-app-muted: var(--app-text-muted);
+  --color-app-accent: var(--app-text-accent);
+  --color-app-border: var(--app-border);
+  --color-app-surface: var(--app-surface);
+  --color-app-skeleton: var(--app-skeleton);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--app-text);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
